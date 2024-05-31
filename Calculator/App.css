@@ -1,0 +1,41 @@
+
+
+.app-container {
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.output {
+  width: 94%;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 14px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 15px;
+  font-size: 18px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttons button:last-child {
+  grid-column: span 2; /* This spans 2 columns */
+}
+
+.buttons button:hover {
+  background-color: #555;
+}
